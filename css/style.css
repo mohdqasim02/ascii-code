@@ -1,24 +1,19 @@
-#home-page {
-  height: 100%;
-  width: 80%;
-  margin: auto;
-  border: 1px solid black;
-
+.flex-box {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+#home-page {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
 #ascii-code {
-  font-size: 100px;
-}
-
-.bg-light {
-  color: black;
-  background-color: white;
-}
-
-.bg-dark {
-  color: white;
-  background-color: black;
+  font-size: 4em;
+  width: 50%;
+  height: 20%;
+  border: 1px solid black;
+  text-align: center;
 }
